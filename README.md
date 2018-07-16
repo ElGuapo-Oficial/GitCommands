@@ -12,6 +12,7 @@ git push <my remote> <branch> - -force (force is optional)
 ```
 
 ## Commit amend (to have only one commit)
+```
 git add .
 git commit - -amend
 git pull - -rebase <remote> <branch>
@@ -19,17 +20,23 @@ git pull - -rebase <remote> <branch>
 	git add .
 	git rebase - -cbrontine
 git push <my remote> <branch> - -force
+```
 
 ## Ver branches y remotes
+```
 git remote
 git branch -vvl
+```
 
+## Renombrar Branch
+```
 ## Renombrar Branch
 git branch -m <newname>
 git branch -m <oldname> <newname>
+```
 
-## Rename Remote
-git remote rename origin destination
+## Rename Remote```
+git remote rename origin destination```
 
 ## Borrar Branch
 git branch -D bugfix
