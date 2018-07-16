@@ -3,13 +3,13 @@
 git
 
 ##Commit normal, o segundo commit 
-git add .
-git commit -m “message”
-git pull - -rebase <remote> <branch>
-	git status
-	git add .
-	git rebase - -contine
-git push <my remote> <branch> - -force (force is optional)
+-git add .
+-git commit -m “message”
+-git pull - -rebase <remote> <branch>
+	1. git status
+	2. git add .
+	3. git rebase - -contine
+-git push <my remote> <branch> - -force (force is optional)
 
 ##Commit amend (to have only one commit)
 git add .
