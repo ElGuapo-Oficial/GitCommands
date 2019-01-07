@@ -71,7 +71,7 @@ git clone git@github.paypal.com:Customers-R/node-manage-credentials.git
 git remote rename <oldname> <newname>
 fork the repo to your local repository
 ### add local repo to machine folder…
-git remote add najash git@github.paypal.com:nguluarte/merchantcardnodeweb.git
+git remote add najash git@github.com:nguluarte/myproject.git
 ```
 ## Track a new branch
 ```
